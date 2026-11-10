@@ -7,7 +7,7 @@ body{
     background-color: rgb(243, 226, 191);
 }
 header{
-    background-image:url(cafe.png);
+    background-image:url(image.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -17,6 +17,7 @@ header{
     text-align: left;
     margin-left: 50px;
     align-items: center;
+    color: white;
 }
 .logo h2{
     font-family: arial;
@@ -27,9 +28,10 @@ justify-content: space-between;
  align-items: center;
  position: relative;
  top: 8px;
+ color: white;
 }
 nav{
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;
     font-size: 17px;
     display: flex;
@@ -66,23 +68,26 @@ section #dot{
     display: flex;
     word-spacing: 3.5px;
     font-weight: 600;
+    color: white;
 }
 section #break{
     font-size:40px ;
     font-family: serif;
     font-weight: 600;
     margin-top: 7px;
+    color: white;
 }
 section #sametext{
     font-size: 40px;
     font-family: serif;
     font-weight: 600;
-    color: rgb(141, 60, 14);
+    color: rgb(165, 92, 53);
 }
 section #para{
     font-family: arial;
     margin-top: 10px;
     font-size: 15px;
+    color: white;
 }
 .twobutton{
     margin-top: 17px;
@@ -117,17 +122,18 @@ section #para{
     margin-top: 30px;
     gap: 50px;
     justify-content:flex-start;
-    border-left: 2px solid black;
+    border-left: 2px solid white;
     padding-left: 15px;
+    color: white;
 }
 .rate{
     justify-content:flex-start;
-    border-left: 2px solid black;
+    border-left: 2px solid white;
     padding-left: 15px;
 }
 .ratee{
     justify-content:flex-start;
-    border-left: 2px solid black;
+    border-left: 2px solid white;
     padding-left: 15px;
 }
 .maindiv{
@@ -143,16 +149,12 @@ section #para{
 .frommain{
     margin-right: 50px;
     border-color: black;
-    background-color: white;
+    background-color: rgb(243, 226, 191);
     color: black;
     height: 35px;
     width: 150px;
     border-radius: 22px;
     font-size: 15px;
-    padding: 8px;
-    margin-right: 50px;
-    align-items: center;
-    text-align: center;
 }
 #crafted{
     font-family: arial;
@@ -252,7 +254,7 @@ main{
     margin-right: 6px;
 }
 .boxes1{
-    border: 2px solid black;
+    border: 2px solid none;
     height: 270px;
     width: 450px;
     color: white;
@@ -269,8 +271,25 @@ main{
     font-family: arial;
     font-size: 13px;
 }
+.sec3button{
+    border-color: white;
+    background-color: rgb(17, 9, 1);
+    color: white;
+    height: 30px;
+    width: 120px;
+    border-radius: 22px;
+    font-size: 13px;
+    
+}
+.settext{
+    margin: 10px 20px 10px 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 .boxes2{
-    border: 2px solid black;
+    border: 2px solid none;
      height: 270px;
     width: 450px;
     background-image:url(threecoffee.png) ;
@@ -279,7 +298,7 @@ main{
     background-size: cover;
 }
 .boxes3{
-    border: 2px solid black;
+    border: 2px solid none;
      height: 270px;
     width: 450px;
     background-image: url(plant.png);
@@ -287,6 +306,95 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.setstext{
+    margin: 10px 20px 10px 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
 .boxes{
 display: flex;
+}
+hr{
+    width: 30px;
+    height: 1px;
+    background-color: black;
+    margin-left: 40px;
+    color: black;
+}
+.icon1{
+    display: flex;
+}
+.icon2{
+    border-left: 2px solid black;
+    padding-left: 15px;
+    display: flex;
+}
+.iconal{
+    margin: 10px;
+}
+.icon3{
+    border-left: 2px solid black;
+    padding-left: 15px;
+    display: flex;
+}
+.icon4{
+    border-left: 2px solid black;
+    padding-left: 15px;
+    display: flex;
+}
+.ratings{
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+    justify-content:flex-start;
+    border-left: 2px solid black;
+    padding-left: 15px;
+    justify-content: space-between;
+    margin: 30px;
+}
+footer{
+    background-color: rgb(17, 9, 1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    height: 60px;
+}
+.secondfooter{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 80px;
+    background-color:  rgb(17, 9, 1);
+    color: white;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+}
+.footerlast{
+    display: flex;
+    gap: 20px;
+}
+.footing{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    gap: 180px;
+    padding-top: 30px;
+}
+.email{
+    height: 30px;
+    width: 180px;
+    border-radius: 15px;
+    background-color:  rgb(17, 9, 1);
+    color: white;
+}
+.iconfour{
+    display: flex;
 }
