@@ -251,4 +251,42 @@ main{
     color: white;
     margin-right: 6px;
 }
-
+.boxes1{
+    border: 2px solid black;
+    height: 270px;
+    width: 450px;
+    color: white;
+    background-color: rgb(17, 9, 1);
+}
+#ourstory{
+    font-family: arial;
+    font-size: 10px;
+}
+#aspace{
+    font-size: 25px;
+}
+#brownpara{
+    font-family: arial;
+    font-size: 13px;
+}
+.boxes2{
+    border: 2px solid black;
+     height: 270px;
+    width: 450px;
+    background-image:url(threecoffee.png) ;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boxes3{
+    border: 2px solid black;
+     height: 270px;
+    width: 450px;
+    background-image: url(plant.png);
+    background-position:right ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boxes{
+display: flex;
+}
